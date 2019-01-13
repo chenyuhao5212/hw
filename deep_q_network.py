@@ -20,7 +20,7 @@ INITIAL_EPSILON = 0.1 # starting value of epsilon
 REPLAY_MEMORY = 50000 # number of previous transitions to remember
 BATCH = 32 # size of minibatch
 FRAME_PER_ACTION = 1
-
+#test test test
 def weight_variable(shape):
     initial = tf.truncated_normal(shape, stddev = 0.01)
     return tf.Variable(initial)
